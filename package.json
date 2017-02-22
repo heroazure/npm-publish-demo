@@ -1,0 +1,29 @@
+{
+  "name": "npm-publish-demo",
+  "version": "1.0.0",
+  "description": "npm publish demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroazure/npm-publish-demo.git"
+  },
+  "keywords": [
+    "demo",
+    "test"
+  ],
+  "author": "heroazure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heroazure/npm-publish-demo/issues"
+  },
+  "homepage": "https://github.com/heroazure/npm-publish-demo#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
