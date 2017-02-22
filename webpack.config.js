@@ -8,7 +8,7 @@ module.exports = {
         library: 'webpackNumbers',
         libraryTarget: 'umd'
     },
-    externals: {
+    externals: {//不打包进最终的文件，而是作为npm install时链式安装
         "lodash": {
             commonjs: "lodash",
             commonjs2: "lodash",
